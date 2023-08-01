@@ -6,7 +6,8 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  #image: prof_pic.jpg
+  image: ma_jolie.png
   image_circular: false # crops the image to make it circular
   address: >
     <p>555 your office number</p>
@@ -20,6 +21,14 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 This is new softoil.
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/ma_jolie.png" class="img-fluid rounded z-depth-1" width=150 zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/prof_pic.jpg" class="img-fluid rounded z-depth-1" width=150 zoomable=true %}
+    </div>
+</div>
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

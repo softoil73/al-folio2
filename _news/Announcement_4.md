@@ -7,14 +7,14 @@ thumbnail: assets/img/IMG_0617.jpg
 ---
 website is up with Markdown emoji! :sparkles: :smile: :mask: :robot: :no_good:  jemoji
 
-{% include figure.html path="assets/img/IMG_0617.jpg" class="img-fluid rounded z-depth-1" max-width=6 max-height=5 %}
+{% include figure.html path="assets/img/IMG_0617.jpg" class="img-fluid rounded z-depth-1" width=300 %}
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/IMG_0870.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/IMG_0870.jpg" class="img-fluid rounded z-depth-1" width = 300 zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/IMG_0810.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/IMG_0810.jpg" class="img-fluid rounded z-depth-1" width = 200 zoomable=true %}
     </div>
 </div>
 <div class="caption">
